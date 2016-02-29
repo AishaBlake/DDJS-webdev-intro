@@ -11,6 +11,8 @@
       - `<p>`
       - `<img>`
       - `<a>`
+      - `<ul>`
+      - `<li>`
   - CSS
     - Syntax
     - Specific properties
