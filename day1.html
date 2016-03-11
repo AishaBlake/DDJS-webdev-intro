@@ -219,7 +219,7 @@ div {
 					<section data-markdown>
 						Let's try using the CSS properties we've learned about!
 
-						1
+
 					</section>
 				</section>
 				<section>
@@ -228,12 +228,40 @@ div {
 					</section>
 					<section data-markdown>
 						#### Keywords
+
+						Probably the easiest and fastest way to pick a color in CSS is to use a keyword. However, the available colors are limited. We can't be very exact in our color choices.
+
+						See this [list of available color names](http://www.crockford.com/wrrrld/color.html).
+
+```css
+div {
+	background-color: salmon;
+}
+```
 					</section>
 					<section data-markdown>
 						#### Hex Codes
+
+						Short for "hexadecimal codes", hex codes give us much more control over our color choices. Hex codes start with a pound symbol which is followed by six characters (0-9, A-F).
+
+						This [color picker](http://www.colorpicker.com/) will tell you what the hex code is for any color you choose.
+
+```css
+div {
+	background-color: #bcdfbb;
+}
+```
 					</section>
 					<section data-markdown>
 						#### RGBA
+
+						RGBA allows us to make the color transparent. We'll have to use four values: the amount of red, green, and blue the color we want contains (0-255), then a number from 0 to 1 to represent how transparent the color should be.
+
+```css
+div {
+	background-color: rgba(41, 133, 163, 0.6);
+}
+```
 					</section>
 				</section>
 
